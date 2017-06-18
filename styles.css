@@ -1,0 +1,53 @@
+.Site {
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+.Site-wrapper {
+  max-width: 1400px;
+}
+
+.MainMenu-items {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.js-is-pink {
+  background-color: deeppink;
+}
+
+
+.Counter {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.Counter span {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.Counter-number {
+  width: 40px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.Counter-tick {
+  cursor: pointer;
+}
+
+.js-is-arrow {
+  cursor: default;
+}
+
+.js-is-prohibited {
+  background-color: red;
+  color: white;
+}
+
+.magical-color-switch {
+  background-color: lime;
+}
