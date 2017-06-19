@@ -1,3 +1,3 @@
 # Sajt:
 
-https://geekymoa.github.io/tjejer-kodar-counter/
+https://geekymoa.github.io/tjejer-kodar-javascript/
