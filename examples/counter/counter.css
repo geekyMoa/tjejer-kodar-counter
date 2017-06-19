@@ -1,0 +1,39 @@
+.Counter {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: inline-block;
+  user-select: none;
+}
+
+.Counter span {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.Counter-number {
+  width: 40px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.Counter-tick {
+  cursor: pointer;
+}
+
+.js-is-arrow {
+  cursor: default;
+}
+
+.js-is-prohibited {
+  background-color: red;
+  color: white;
+}
+
+.js-is-pink {
+  background-color: deeppink;
+}
+
+.magical-color-switch {
+  background-color: lime;
+}

@@ -7,7 +7,6 @@
   // räkna om värdet i number-span:en
   // printa ut nya värdet i number-span:en
 
-  var counter = document.getElementById('counter');
   var ticks = Array.from(document.getElementsByClassName('Counter-tick'));
   var numberSpan = document.getElementsByClassName('Counter-number')[0];
   var number = parseInt(numberSpan.innerHTML);
@@ -45,7 +44,7 @@
         if (clickedElement.innerHTML === '-' && number <= 0) {
           clickedElement.classList.add('js-is-arrow', 'js-is-prohibited');
         } else if(clickedElement.innerHTML === '+') {
-          clickedElement.classList.remove('js-is-arrow', 'js-is-prohibited');
+          ticks[0].classList.remove('js-is-prohibited');
         }
 
         // Lägg till vårt nya nummer i span:en med klassen .Counter-number.

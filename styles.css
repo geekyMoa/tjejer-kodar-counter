@@ -1,53 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600');
+@import 'normalize.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+/* https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 */
+html,
+body {
+  height: 100%;
+}
+
 .Site {
-  font-family: Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
   color: #333;
 }
 
-.Site-wrapper {
+.Site-content {
+  flex: 1 0 auto;
+}
+
+.Site-grid {
   max-width: 1400px;
+  margin: 0 auto;
 }
 
-.MainMenu-items {
-  display: inline-block;
-  padding: 5px 10px;
-}
-
-.js-is-pink {
-  background-color: deeppink;
-}
-
-
-.Counter {
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  display: inline-block;
-}
-
-.Counter span {
-  display: inline-block;
-  padding: 5px 10px;
-}
-
-.Counter-number {
-  width: 40px;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  text-align: center;
-}
-
-.Counter-tick {
-  cursor: pointer;
-}
-
-.js-is-arrow {
-  cursor: default;
-}
-
-.js-is-prohibited {
-  background-color: red;
+.Header {
+  background: purple url('images-bg/lila_pattern.png') center center repeat;
   color: white;
+  margin-bottom: 30px;
+  padding: 50px 0;
 }
 
-.magical-color-switch {
-  background-color: lime;
+.Header-tagline {
+  font-size: 30px;
+}
+
+.Footer {
+  background-color: black;
+  color: #eee;
+  padding: 50px;
+  margin-top: 30px;
 }
