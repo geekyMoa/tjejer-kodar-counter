@@ -2,16 +2,46 @@
 <html>
   <head>
     <title>Tjejer Kodar</title>
-    <link href="../styles.css" rel="stylesheet" />
+    <link href="../../styles.css" rel="stylesheet" />
+    <link href="catmania.css" rel="stylesheet" />
     <meta charset="utf-8" />
   </head>
   <body class="Site">
-    <div class="Site-wrapper">
 
+    <header class="Header">
+      <div class="Site-grid">
+        <h1>Tjejer Kodar i Berlin</h1>
+        <p class="Header-tagline">JavaScript: Katter!</p>
+      </div>
+    </header>
 
+    <main class="Site-content">
+      <div class="Site-grid">
 
+        <div class="CatMania">
 
-    </div><!-- end of Site-wrapper -->
-    <script src="scripts.js"></script>
+          <div class="CatMania-buttons">
+            <button id="moreCats">Fler katter!</button>
+            <button id="killCats">Döda alla katter :( (mördare!)</button>
+          </div>
+
+          <p>
+            (Om det inte visas några katter beror det på att placekitten.com inte funkar.)
+          </p>
+
+          <div class="CatMania-container" id="catContainer">
+            <img src="http://via.placeholder.com/350x150" class="CatMania-container-cat"/>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="Footer">
+      <div class="Site-grid">
+        <p><em>En footer!</em></p>
+      </div>
+    </footer>
+  <script src="scripts.js"></script>
   </body>
 </html>

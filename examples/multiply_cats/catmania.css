@@ -1,0 +1,10 @@
+.CatMania {}
+
+.CatMania-buttons {
+  margin: 20px 0;
+}
+
+.CatMania-container-cat {
+  display: inline-block;
+  margin: 5px;
+}

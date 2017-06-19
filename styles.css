@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600');
 @import 'normalize.css';
 
+/* https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 */
+html,
+body {
+  height: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -14,11 +20,31 @@ h1 {
   font-size: 60px;
 }
 
-/* https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 */
-html,
-body {
-  height: 100%;
+button {
+  background: hotpink;
+  border: 1px solid hotpink;
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  color: white;
+  padding: 15px 20px;
+  line-height: 1.1;
+  border-radius: 3px;
 }
+
+button:hover {
+  background: deeppink;
+}
+
+button:focus {
+  outline: none;
+  border: 1px solid mediumvioletred;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
 
 .Site {
   display: flex;
