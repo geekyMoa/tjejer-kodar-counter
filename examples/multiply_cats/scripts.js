@@ -18,7 +18,7 @@
 
     catElement.setAttribute('src', catUrl);
     catElement.classList.add('CatMania-container-cat');
-    
+
     catContainer.appendChild(catElement);
   });
 

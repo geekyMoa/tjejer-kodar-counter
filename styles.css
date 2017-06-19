@@ -45,6 +45,20 @@ button:active {
   top: 1px;
 }
 
+a {
+  text-decoration: none;
+  color: DARKTURQUOISE;
+}
+
+a:hover {
+  color: TURQUOISE;
+  text-decoration: underline;
+}
+
+.List li {
+  padding: 5px;
+  font-size: 22px;
+}
 
 .Site {
   display: flex;
