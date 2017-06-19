@@ -20,6 +20,14 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
 button {
   background: hotpink;
   border: 1px solid hotpink;
